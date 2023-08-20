@@ -80,5 +80,4 @@ const WalineComponent = (props) => {
   return <div ref={containerRef} />
 }
 
-
 export default WalineComponent
