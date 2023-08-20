@@ -31,10 +31,10 @@ const WalineComponent = (props) => {
     /* 徽章 */
     --waline-badge-color: #34495e /*博主徽章色*/
     --waline-avatar-radius: 5px
-    --waline-avatar-size: 6rem
+    --waline-avatar-size: 4rem
     --waline-dark-grey: #34495e /*ID颜色*/
     --waline-text-color: #34495e /*字体颜色*/
-    --waline-font-size: 1.7rem /*字体大小*/
+    --waline-font-size: 1rem /*字体大小*/
 
     /*夜间模式*/
     :root[data-scheme="dark"] {
