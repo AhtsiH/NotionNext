@@ -63,7 +63,6 @@ const WalineComponent = (props) => {
   ｝
 `
 
-
     document.head.appendChild(style)
 
     if (!waline) {
