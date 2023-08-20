@@ -35,10 +35,9 @@ const WalineComponent = (props) => {
     --waline-dark-grey: #34495e /*ID颜色*/
     --waline-text-color: #34495e /*字体颜色*/
     --waline-font-size: 1.7rem /*字体大小*/
-  }
 
-  /*夜间模式*/
-  :root[data-scheme="dark"] {
+    /*夜间模式*/
+    :root[data-scheme="dark"] {
     --waline-theme-color: #acc6e0
     --waline-white: #34495e /*按键字体颜色*/
     --waline-active-color: #8ab1d8
