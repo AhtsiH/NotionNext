@@ -23,7 +23,7 @@ const WalineComponent = (props) => {
 
   React.useEffect(() => {
   // 添加自定义 CSS 样式
-    const style = document.createElement('style');
+    const style = document.createElement('style')
     style.innerHTML = `
     :root {
       --waline-theme-color: #34495e
