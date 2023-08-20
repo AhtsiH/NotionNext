@@ -37,7 +37,7 @@ const WalineComponent = (props) => {
     
     :root[data-scheme="dark"] {
       --waline-theme-color: #acc6e0
-      --waline-white: #34495e;
+      --waline-white: #34495e
       --waline-active-color: #8ab1d8
       --waline-light-grey: #666
       --waline-dark-grey: #acc6e0
@@ -45,8 +45,8 @@ const WalineComponent = (props) => {
       /* 布局颜色等其他样式... */
     }
   `
-  
-  document.head.appendChild(style)
+
+    document.head.appendChild(style)
 
     if (!waline) {
       waline = init({
