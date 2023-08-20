@@ -2,7 +2,7 @@ import React from 'react'
 import { init } from '@waline/client'
 import BLOG from '@/blog.config'
 import { useRouter } from 'next/router'
-import 'public/css/commenttheme.css'
+import '@/public/css/commenttheme.css'
 
 const path = ''
 let waline = null
