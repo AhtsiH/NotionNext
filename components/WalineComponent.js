@@ -22,6 +22,31 @@ const WalineComponent = (props) => {
   }
 
   React.useEffect(() => {
+  // 添加自定义 CSS 样式
+  const style = document.createElement('style');
+  style.innerHTML = `
+    :root {
+      --waline-theme-color: #34495e;
+      --waline-active-color: #bababa;
+      --waline-badge-color: #34495e;
+      --waline-dark-grey: #34495e;
+      --waline-bgcolor: #f0f8ff;
+      --waline-bgcolor-light: #e9f3fb;
+      --waline-border-color: #3f4551;
+    }
+    
+    :root[data-scheme="dark"] {
+      --waline-theme-color: #acc6e0;
+      --waline-white: #34495e;
+      --waline-active-color: #8ab1d8;
+      --waline-light-grey: #666;
+      --waline-dark-grey: #acc6e0;
+      --waline-badge-color: #acc6e0;
+      /* 布局颜色等其他样式... */
+    }
+  `;
+  
+  document.head.appendChild(style);
     if (!waline) {
       waline = init({
         ...props,
