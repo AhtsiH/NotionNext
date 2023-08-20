@@ -60,6 +60,8 @@ const WalineComponent = (props) => {
     /* 其他颜色 */
     --waline-info-bgcolor: #acc6e0
     --waline-info-color: #9b9c9c
+  ｝
+`
 
 
     document.head.appendChild(style)
