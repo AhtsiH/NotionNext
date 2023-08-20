@@ -31,10 +31,10 @@ const WalineComponent = (props) => {
         reaction: false,
         dark: 'html.dark',
         emoji: [
-          'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/',
-          'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
-          'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif'
-          'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+          '//cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/',
+          '//cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+          '//cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif'
+          '//cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
         ]
       })
     }
